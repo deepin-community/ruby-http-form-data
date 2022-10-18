@@ -1,0 +1,49 @@
+ruby-http-form-data (2.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+    - Fixes Ruby2.7 compatibility issues (closes: #952069).
+
+  * d/compat: Remove obsolete file.
+  * d/control: Add Rules-Requires-Root field.
+    (Build-Depends): Use debhelper-compat version 12.
+    (Standards-Version): Bump to 4.5.0.
+    (Depends): Use ${ruby:Depends} and remove interpreter.
+  * d/rules: Add override to install upstream CHANGES.md.
+  * d/upstream/metadata: Add metadata.
+
+ -- Daniel Leidert <dleidert@debian.org>  Wed, 26 Feb 2020 14:44:52 +0100
+
+ruby-http-form-data (2.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Reupload to unstable
+  * Fix minor errors
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Thu, 07 Feb 2019 15:33:20 +0530
+
+ruby-http-form-data (2.1.0-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump standards version to 4.1.4 (no changes)
+
+ -- Manas kashyap <manaskashyaptech@gmail.com>  Sat, 05 May 2018 17:12:40 +0000
+
+ruby-http-form-data (1.0.1+gemwatch-1) unstable; urgency=medium
+
+  * Team upload
+  * d/control:
+      Bump Standards-Version to 3.9.7 (no changes)
+      Update Vcs-* fields (use https everywhere)
+  * d/rules: Use gem2deb test runner deps argument
+  * Import new upstream using gemwatch (for metadata file)
+  * Rebuild with metadata (issue with rubygems integration)
+
+ -- Sebastien Badia <seb@sebian.fr>  Tue, 01 Mar 2016 17:49:03 -0300
+
+ruby-http-form-data (1.0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #797277)
+
+ -- Balasankar C <balasankarc@autistici.org>  Sat, 29 Aug 2015 12:25:49 +0530
